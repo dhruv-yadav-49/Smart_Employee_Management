@@ -18,6 +18,7 @@ public class ScopeExperiment implements CommandLineRunner {
     @Override
     public void run(String... args) {
         System.out.println("\n========== OBSERVING SPRING BEAN SCOPES ==========");
+        System.out.println("Executing ScopeExperiment Runner...");
         
         System.out.println("\n[Singleton Demo]");
         System.out.println("FirstBean's SingletonDemo hash:  " + firstBean.getSingletonDemo().hashCode());
